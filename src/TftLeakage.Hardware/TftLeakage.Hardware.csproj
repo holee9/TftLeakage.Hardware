@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TftLeakage.Hardware</RootNamespace>
+    <Description>FPGA SPI communication library for TFT panel leakage reduction</Description>
+    <PackageId>TftLeakage.Hardware</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Interfaces\IFpgaClient.cs" />
+    <Compile Include="Models\FpgaRegisters.cs" />
+    <Compile Include="FpgaSpiClient.cs" />
+  </ItemGroup>
+
+</Project>
