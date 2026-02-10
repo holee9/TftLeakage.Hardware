@@ -113,6 +113,27 @@ dotnet pack -c Release
 
 MIT License - [LICENSE](LICENSE)
 
+## 문서
+
+### 배포 패키지
+
+| 문서 | 설명 |
+|------|------|
+| [README.md](docs/delivery/README.md) | 배포 패키지 개요 |
+| [00_project_overview.md](docs/delivery/00_project_overview.md) | 프로젝트 개요 |
+| [01_architecture_overview.md](docs/delivery/01_architecture_overview.md) | 아키텍처 개요 |
+| [02_api_specification.md](docs/delivery/02_api_specification.md) | API 사양 |
+| [03_data_models.md](docs/delivery/03_data_models.md) | 데이터 모델 |
+| [04_communication_protocol.md](docs/delivery/04_communication_protocol.md) | 통신 프로토콜 |
+| [05_ui_requirements.md](docs/delivery/05_ui_requirements.md) | UI 요구사항 |
+| [06_configuration_schema.md](docs/delivery/06_configuration_schema.md) | 설정 스키마 |
+| [07_acceptance_criteria.md](docs/delivery/07_acceptance_criteria.md) | 인수 기준 |
+| [reference/](docs/delivery/reference/) | 참고 문서 (2D Dark LUT 등) |
+
+### 요약 사양
+
+- [docs/spec.md](docs/spec.md) - 간단 사양 요약
+
 ## 관련 프로젝트
 
 - [tft-panel-fpga](https://github.com/holee9/tft-panel-fpga) - FPGA RTL
